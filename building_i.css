@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    color: white;
+    font-size: 20px;
+    z-index: 9999; 
+}
+
+h2 a {
+    position: fixed;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(calc(-50% + 0.4em));
+    z-index: 9999;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.8em;
+}
+
+h4 a {
+    position: fixed;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+}
+.i1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 27%;
+    height: 100%;
+    background-image: url('image/piece_i1.png');
+    background-size: cover;
+}
+
+.i2 {
+    position: fixed;
+    top: 0;
+    left: 27%;
+    width: 26%;
+    height: 31%;
+    background-image: url('image/piece_i2.png');
+    background-size: cover;
+}
+
+.i3 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 47%;
+    height: 31%;
+    background-image: url('image/piece_i3.png');
+    background-size: cover;
+}
+
+.i4 {
+    position: fixed;
+    bottom: 0;
+    left: 27%;
+    width: 56%;
+    height: 69%;
+    background-image: url('image/piece_i4.png');
+    background-size: cover;
+}
+
+.i5 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 17%;
+    height: 69%;
+    background-image: url('image/piece_i5.png');
+    background-size: cover;
+}
+
+@media (max-width: 900px) {
+     .i1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 69%;
+    height: 36%;
+    background-image: url('image/mobile piece_i1.png');
+    background-size: cover;
+    }
+
+    .i2 {
+    position: fixed;
+    top: 36%;
+    left: 0;
+    width: 69%;
+    height: 64%;
+    background-image: url('image/mobile piece_i2.png');
+    background-size: cover;
+    }
+
+    .i3 {
+    position: fixed;
+    top: 0;
+    left: 69%;
+    width: 31%;
+    height: 59.5%;
+    background-image: url('image/mobile piece_i3.png');
+    background-size: cover;
+    }
+
+    .i4 {
+    position: fixed;
+    top: 59.5%;
+    left: 69%;
+    width: 31%;
+    height: 13%;
+    background-image: url('image/mobile piece_i4.png');
+    background-size: cover;
+    }
+
+    .i5 {
+    position: fixed;
+    top: 72.5%;
+    right: 0;
+    width: 31%;
+    height: 27.5%;
+    background-image: url('image/mobile piece_i5.png');
+    background-size: cover;
+    }
+}

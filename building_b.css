@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    color: white;
+    font-size: 20px;
+    z-index: 9999; 
+}
+
+h2 a {
+    position: fixed;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(calc(-50% + 0.4em));
+    z-index: 9999;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.8em;
+}
+
+h4 a {
+    position: fixed;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+.b1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 26%;
+    height: 84%;
+    background-image: url('image/piece_b1.png');
+    background-size: cover;
+}
+
+.b2 {
+    position: fixed;
+    top: 0;
+    left: 26%;
+    width: 74%;
+    height: 54%;
+    background-image: url('image/piece_b2.png');
+    background-size: cover;
+}
+
+.b3 {
+    position: fixed;
+    top: 54%;
+    left: 26%;
+    width: 15%;
+    height: 30%;
+    background-image: url('image/piece_b3.png');
+    background-size: cover;
+}
+
+.b4 {
+    position: fixed;
+    top: 54%;
+    right: 0;
+    width: 59%;
+    height: 30%;
+    background-image: url('image/piece_b4.png');
+    background-size: cover;
+}
+
+.b5 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 16%;
+    background-image: url('image/piece_b5.png');
+    background-size: cover;
+}
+
+
+@media (max-width: 900px) {
+    .b1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 41%;
+    height: 62%;
+    background-image: url('image/mobile piece_b1.png');
+    background-size: cover;
+    }
+
+    .b2 {
+    position: fixed;
+    top: 0;
+    left: 41%;
+    width: 59%;
+    height: 62%;
+    background-image: url('image/mobile piece_b2.png');
+    background-size: cover;
+    }
+
+    .b3 {
+    position: fixed;
+    top: 62%;
+    left: 0;
+    width: 100%;
+    height: 15%;
+    background-image: url('image/mobile piece_b3.png');
+    background-size: cover;
+    }
+
+    .b4 {
+    position: fixed;
+    top: 77%;
+    right: 72%;
+    width: 28%;
+    height: 23%;
+    background-image: url('image/mobile piece_b4.png');
+    background-size: cover;
+    }
+
+    .b5 {
+    position: fixed;
+    bottom: 0;
+    left: 28%;
+    width: 72%;
+    height: 23%;
+    background-image: url('image/mobile piece_b5.png');
+    background-size: cover;
+    }
+}
