@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>학생누리관 천장3</title>
+		<meta name="description" content="학생누리관 지하 1층 엘레베이터 앞에서 찍은 천장 사진입니다.">
+		<meta name="keywords" content="서울여자대학교, 학생누리관, 지하 1층, 엘레베이터, 천장, 사진">
+		<link rel="stylesheet" href="click.css">
+	</head>
+
+
+	<body>
+		<h1>
+			<a href="building_n.html">학생누리관</a>
+		</h1>
+		<h2>지하 1층</h2>
+	 	<section class="a">
+        <img id="fullImage"
+        	src="image/n3.png"
+        	alt="학생누리관 지하 1층에서 천장 위를 매우 확대하여 찍은 사진으로, 철제 구조물이 일정한 간격으로 세로로 나열되어 있고, 그 사이로 철 구조물이 그물망 모양으로 빼곡하게 드러난다. ">
+    	</section>
+
+	    <script>
+	        const img = document.getElementById("fullImage");
+	        const images = ["image/n3.png", "image/n3-2.jpeg", "image/n3-3.jpeg", "image/n3-4.jpeg"];
+	        let index = 0;
+
+	        document.body.addEventListener("click", () => {
+	            index = (index + 1) % images.length; 
+	            img.src = images[index];
+	        });
+	    </script>
+	    <h3>
+			<a href="index.html">천장조각조각</a>
+		</h3>
+		<h4>
+			<a href="gallery.html">사진첩</a>
+		</h4>
+
+	</body>
+</html>

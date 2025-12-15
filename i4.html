@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>인문사회관 천장4</title>
+		<meta name="description" content="인문사회관 2층 난간에서 찍은 천장 사진입니다.">
+		<meta name="keywords" content="서울여자대학교, 인문사회관, 2층, 난간, 천장, 사진">
+		<link rel="stylesheet" href="click.css">
+	</head>
+
+	<body>
+		<h1> 
+			<a href="building_i.html">인문사회관</a>
+		</h1>
+		<h2>2층 난간</h2>
+	    <section class="a">
+        <img id="fullImage"
+        	src="image/i4.jpg"
+        	alt="인문사회관 2층 난간과 난간 사이에서 위쪽을 향해 찍은 사진으로, 두 기둥의 모습에 과투시가 드러나 마치 두개의 삼각형이 마주한 모습처럼 보인다.">
+	    </section>
+
+	    <script>
+	        const img = document.getElementById("fullImage");
+	        const images = ["image/i4.jpg", "image/i4-2.jpg", "image/i4-3.jpg", "image/i4-4.jpg", "image/i4-5.jpg"];
+	        let index = 0;
+
+	        document.body.addEventListener("click", () => {
+	            index = (index + 1) % images.length; 
+	            img.src = images[index];
+	        });
+	    </script>
+	    <h3>
+			<a href="index.html">천장조각조각</a>
+		</h3>
+		<h4>
+			<a href="gallery.html">사진첩</a>
+		</h4>
+	</body>
+</html>

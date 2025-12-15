@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>고명우기념관 천장1</title>
+		<meta name="description" content="고명우기념관 4층 계단 옆에서 찍은 천장 사진입니다.">
+		<meta name="keywords" content="서울여자대학교, 고명우기념관, 4층, 계단, 천장, 사진">
+		<link rel="stylesheet" href="click.css">
+	</head>
+
+
+	<body>
+		<h1>
+			<a href="building_g.html">고명우기념관</a>
+		</h1>
+		<h2>4층 계단 옆</h2>
+	    <section class="a">
+        <img 
+        	id="fullImage"
+        	src="image/g1.jpg"
+        	alt="고명우기념관의 옥상으로 이어지는 4층 계단 옆에서 위를 올려다보며 찍은 사진으로, 대문자'D'모양으로 유리 천장이 드러나 하늘이 보인다. ">
+        </section>
+
+	    <script>
+	        const img = document.getElementById("fullImage");
+	        const images = ["image/g1.jpg", "image/g1-2.jpg", "image/g1-3.jpg", "image/g1-4.jpg", "image/g1-5.jpg"];
+	        let index = 0;
+
+	        document.body.addEventListener("click", () => {
+	            index = (index + 1) % images.length; 
+	            img.src = images[index];
+	        });
+	    </script>
+	    <h3>
+			<a href="index.html">천장조각조각</a>
+		</h3>
+		<h4>
+			<a href="gallery.html">사진첩</a>
+		</h4>
+	</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>학생누리관 천장5</title>
+		<meta name="description" content="학생누리관 1층 식당에서 찍은 천장 사진입니다.">
+		<meta name="keywords" content="서울여자대학교, 학생누리관, 1층, 식당, 천장, 사진">
+		<link rel="stylesheet" href="click.css">
+	</head>
+
+
+	<body>
+		<h1>
+			<a href="building_n.html">학생누리관</a>
+		</h1>
+		<h2>1층 식당</h2>
+		<section class="a">
+        <img id="fullImage"
+        	src="image/n5.jpg"
+        	alt="학생누리관 1층 식당에서 찍은 사진으로, 세로로 긴 선적인 전등 구조물이 상단을 세로로 가로지르고 있으며 하단에는 남색과 나무색의 사각형 구조물이 면적으로 드러나 있다.">
+    	</section>
+
+	    <script>
+	        const img = document.getElementById("fullImage");
+	        const images = ["image/n5.jpg", "image/n5-2.jpg", "image/n5-3.jpg"];
+	        let index = 0;
+
+	        document.body.addEventListener("click", () => {
+	            index = (index + 1) % images.length; 
+	            img.src = images[index];
+	        });
+	    </script>
+	    <h3>
+			<a href="index.html">천장조각조각</a>
+		</h3>
+		<h4>
+			<a href="gallery.html">사진첩</a>
+		</h4>
+
+	</body>
+</html>

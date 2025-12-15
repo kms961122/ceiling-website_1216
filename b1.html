@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>바롬인성교육관 천장1</title>
+		<meta name="description" content="바롬인성교육관 3층 테라스 입구 앞에서 찍은 천장 사진입니다.">
+		<meta name="keywords" content="서울여자대학교, 바롬인성교육관, 3층, 테라스, 천장, 사진">
+		<link rel="stylesheet" href="click.css">
+	</head>
+
+	<body>
+		<h1> 
+			<a href="building_b.html">바롬인성교육관</a>
+		</h1>
+		<h2>3층 테라스 앞</h2>
+	    <section class="a">
+        <img id="fullImage" 
+        	src="image/b1.jpg"
+        	alt="바롬인성교육관 3층 테라스 입구 앞에서 찍은 천장 사진으로, 나무 구조물 사이로 어두운 면적이 드러난 부분을 확대하여 촬영하였다.">
+        </section>
+
+	    <script>
+	        const img = document.getElementById("fullImage");
+	        const images = ["image/b1.jpg", "image/b1-2.jpg", "image/b1-3.jpg", "image/b1-4.jpg", "image/b1-5.jpg"];
+	        let index = 0;
+
+	        document.body.addEventListener("click", () => {
+	            index = (index + 1) % images.length; 
+	            img.src = images[index];
+	        });
+	    </script>
+	    <h3>
+			<a href="index.html">천장조각조각</a>
+		</h3>
+		<h4>
+			<a href="gallery.html">사진첩</a>
+		</h4>
+	</body>
+</html>

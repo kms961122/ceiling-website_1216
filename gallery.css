@@ -1,0 +1,890 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+h1 a {
+    position: fixed;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+h2{
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.a {
+    position: absolute;
+    top: 150px;
+    left: 12%;
+    width: 80px;
+    height: 80px;
+    background-image: url("image/g1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.b {
+    position: absolute;
+    top: 150px;
+    left: 26%;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    background-image: url("image/g2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.c {
+    position: absolute;
+    top: 150px;
+    left: 40%;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    background-image: url("image/g3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.d {
+    position: absolute;
+    top: 150px;
+    left: 54%;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    background-image: url("image/g4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.e {
+    position: absolute;
+    top: 150px;
+    left: 68%;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    background-image: url("image/g5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.f {
+    position: absolute;
+    top: 150px;
+    left: 82%;
+    width: 80px;
+    height: 80px;
+    background-image: url("image/d1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.g {
+    position: absolute;
+    top: 300px;
+    left: 12%;
+    width: 80px;
+    height: 80px;
+    background-image: url("image/d2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.h {
+    position: absolute;
+    top: 300px;
+    left: 26%;
+    width: 80px;
+    height: 80px;
+    background-image: url("image/d3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.i {
+    position: absolute;
+    top: 300px;
+    left: 40%;
+    width: 80px;
+    height: 80px;
+    background-image: url("image/d4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.j {
+    position: absolute;
+    top: 300px;
+    left: 54%;
+    width: 80px;
+    height: 80px;
+    background-image: url("image/d5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.k {
+    position: absolute;
+    top: 300px;
+    left: 68%;
+    width: 80px;
+    height: 80px;
+    background-image: url("image/n1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.l {
+    position: absolute;
+    top: 300px;
+    left: 82%;
+    width: 80px;
+    height: 80px;
+    background-image: url("image/n2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.m {
+    position: absolute;
+    top: 450px;
+    left: 12%;
+    width: 80px;
+    height: 80px;
+    background-image: url("image/n3.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.n {
+    position: absolute;
+    top: 450px;
+    left: 26%;
+    width: 80px;
+    height: 80px;
+    background-image: url("image/n4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.o {
+    position: absolute;
+    top: 450px;
+    left: 40%;
+    width: 80px;
+    height: 80px;
+    background-image: url("image/n5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.p {
+    position: absolute;
+    top: 450px;
+    left: 54%;
+    width: 80px;
+    height: 80px;
+    background-image: url("image/b1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.q {
+    position: absolute;
+    top: 450px;
+    left: 68%;
+    width: 80px;
+    height: 80px;
+    background-image: url("image/b2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.r {
+    position: absolute;
+    top: 450px;
+    left: 82%;
+    width: 80px;
+    height: 80px;
+    background-image: url("image/b3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.s {
+    position: absolute;
+    top: 600px;
+    left: 12%;
+    width: 80px;
+    height: 80px;
+    background-image: url("image/b4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.t {
+    position: absolute;
+    top: 600px;
+    left: 26%;
+    width: 80px;
+    height: 80px;
+    background-image: url("image/b5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.u {
+    position: absolute;
+    top: 600px;
+    left: 40%;
+    width: 80px;
+    height: 80px;
+    background-image: url("image/i1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.v {
+    position: absolute;
+    top: 600px;
+    left: 54%;
+    width: 80px;
+    height: 80px;
+    background-image: url("image/i2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.w {
+    position: absolute;
+    top: 600px;
+    left: 68%;
+    width: 80px;
+    height: 80px;
+    background-image: url("image/i3.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.x {
+    position: absolute;
+    top: 600px;
+    left: 82%;
+    width: 80px;
+    height: 80px;
+    background-image: url("image/i4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.y {
+    position: absolute;
+    top: 750px;
+    left: 12%;
+    width: 80px;
+    height: 80px;
+    background-image: url("image/i5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.g1 {
+    position: absolute;
+    top: 240px;
+    left: 12%;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.g2 {
+    position: absolute;
+    top: 240px;
+    left: 26%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.g3 {
+    position: absolute;
+    top: 240px;
+    left: 40%;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.g4 {
+    position: absolute;
+    top: 240px;
+    left: 54%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.g5 {
+    position: absolute;
+    top: 240px;
+    left: 68%;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.d1 {
+    position: absolute;
+    top: 240px;
+    left: 82%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.d2 {
+    position: absolute;
+    top: 390px;
+    left: 12%;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.d3 {
+    position: absolute;
+    top: 390px;
+    left: 26%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.d4 {
+    position: absolute;
+    top: 390px;
+    left: 40%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.d5 {
+    position: absolute;
+    top: 390px;
+    left: 54%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.n1 {
+    position: absolute;
+    top: 390px;
+    left: 68%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.n2 {
+    position: absolute;
+    top: 390px;
+    left: 82%;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.n3 {
+    position: absolute;
+    top: 540px;
+    left: 12%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.n4 {
+    position: absolute;
+    top: 540px;
+    left: 26%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.n5 {
+    position: absolute;
+    top: 540px;
+    left: 40%;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.b1 {
+    position: absolute;
+    top: 540px;
+    left: 54%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.b2 {
+    position: absolute;
+    top: 540px;
+    left: 68%;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.b3 {
+    position: absolute;
+    top: 540px;
+    left: 82%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.b4 {
+    position: absolute;
+    top: 690px;
+    left: 12%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.b5 {
+    position: absolute;
+    top: 690px;
+    left: 26%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.i1 {
+    position: absolute;
+    top: 690px;
+    left: 40%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.i2 {
+    position: absolute;
+    top: 690px;
+    left: 54%;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.i3 {
+    position: absolute;
+    top: 690px;
+    left: 68%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.i4 {
+    position: absolute;
+    top: 690px;
+    left:82%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.i5 {
+    position: absolute;
+    top: 840px;
+    left: 12%;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+
+
+
+
+
+@media (max-width: 800px) {
+     .a {
+        position: absolute;
+        top: 150px;
+        left: 12%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .b {
+        position: absolute;
+        top: 150px;
+        left: 32%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .c {
+        position: absolute;
+        top: 150px;
+        left: 52%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .d {
+        position: absolute;
+        top: 150px;
+        left: 72%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .e {
+        position: absolute;
+        top: 300px;
+        left: 12%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .f {
+        position: absolute;
+        top: 300px;
+        left: 32%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .g {
+        position: absolute;
+        top: 300px;
+        left: 52%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .h {
+        position: absolute;
+        top: 300px;
+        left: 72%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .i {
+        position: absolute;
+        top: 450px;
+        left: 12%;
+        width: 80px;
+        height: 80px;
+     }
+
+    .j {
+        position: absolute;
+        top: 450px;
+        left: 32%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .k {
+        position: absolute;
+        top: 450px;
+        left: 52%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .l {
+        position: absolute;
+        top: 450px;
+        left: 72%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .m {
+        position: absolute;
+        top: 600px;
+        left: 12%;
+        width: 80px;
+        height: 80px;
+        background-color: red;
+        }
+
+    .n {
+        position: absolute;
+        top: 600px;
+        left: 32%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .o {
+        position: absolute;
+        top: 600px;
+        left: 52%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .p {
+        position: absolute;
+        top: 600px;
+        left: 72%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .q {
+        position: absolute;
+        top: 750px;
+        left: 12%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .r {
+        position: absolute;
+        top: 750px;
+        left: 32%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .s {
+        position: absolute;
+        top: 750px;
+        left: 52%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .t {
+        position: absolute;
+        top: 750px;
+        left: 72%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .u {
+        position: absolute;
+        top: 900px;
+        left: 12%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .v {
+        position: absolute;
+        top: 900px;
+        left: 32%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .w {
+        position: absolute;
+        top: 900px;
+        left: 52%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .x {
+        position: absolute;
+        top: 900px;
+        left: 72%;
+        width: 80px;
+        height: 80px;
+    }
+    .y {
+        position: absolute;
+        top: 1050px;
+        left: 12%;
+        width: 80px;
+        height: 80px;
+    }
+
+
+.g1 {
+    position: absolute;
+    top: 240px;
+    left: 12%;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.g2 {
+    position: absolute;
+    top: 240px;
+    left: 32%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.g3 {
+    position: absolute;
+    top: 240px;
+    left: 52%;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.g4 {
+    position: absolute;
+    top: 240px;
+    left: 72%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.g5 {
+    position: absolute;
+    top: 390px;
+    left: 12%;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.d1 {
+    position: absolute;
+    top: 390px;
+    left: 32%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.d2 {
+    position: absolute;
+    top: 390px;
+    left: 52%;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.d3 {
+    position: absolute;
+    top: 390px;
+    left: 72%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.d4 {
+    position: absolute;
+    top: 540px;
+    left: 12%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.d5 {
+    position: absolute;
+    top: 540px;
+    left: 32%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.n1 {
+    position: absolute;
+    top: 540px;
+    left: 52%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.n2 {
+    position: absolute;
+    top: 540px;
+    left: 72%;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.n3 {
+    position: absolute;
+    top: 690px;
+    left: 12%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.n4 {
+    position: absolute;
+    top: 690px;
+    left: 32%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.n5 {
+    position: absolute;
+    top: 690px;
+    left: 52%;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.b1 {
+    position: absolute;
+    top: 690px;
+    left: 72%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.b2 {
+    position: absolute;
+    top: 840px;
+    left: 12%;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.b3 {
+    position: absolute;
+    top: 840px;
+    left: 32%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.b4 {
+    position: absolute;
+    top: 840px;
+    left: 52%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.b5 {
+    position: absolute;
+    top: 840px;
+    left: 72%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.i1 {
+    position: absolute;
+    top: 990px;
+    left: 12%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.i2 {
+    position: absolute;
+    top: 990px;
+    left: 32%;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.i3 {
+    position: absolute;
+    top: 990px;
+    left: 52%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.i4 {
+    position: absolute;
+    top: 990px;
+    left: 72%;
+    font-size: 10px;
+    font-weight: normal;
+}
+.i5 {
+    position: absolute;
+    top: 1140px;
+    left: 12%;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+
+}
+
+

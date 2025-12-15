@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>인문사회관 천장3</title>
+		<meta name="description" content="인문사회관 3층 웹기획 실습실 앞에서 찍은 천장 사진입니다.">
+		<meta name="keywords" content="서울여자대학교, 인문사회관, 3층, 웹기획 실습실, 천장, 사진">
+		<link rel="stylesheet" href="click.css">
+	</head>
+
+	<body>
+		<h1> 
+			<a href="building_i.html">인문사회관</a>
+		</h1>
+		<h2>3층 웹기획 실습실</h2>
+	    <section class="a">
+        <img id="fullImage"
+        	src="image/i5-1.png"
+        	alt="인문사회관 3층에서 찍은 천장 사진으로, 화면 대부분에 매우 가까운 천장의 보라색 구조물이 면적으로 드러나고, 왼쪽 상단에는 윗층의 천장이 흐리게 보인다.">
+	    </section>
+
+	    <script>
+	        const img = document.getElementById("fullImage");
+	        const images = ["image/i5-1.png", "image/i3-2.jpeg", "image/i3-3.jpeg"];
+	        let index = 0;
+
+	        document.body.addEventListener("click", () => {
+	            index = (index + 1) % images.length; 
+	            img.src = images[index];
+	        });
+	    </script>
+	    <h3>
+			<a href="index.html">천장조각조각</a>
+		</h3>
+		<h4>
+			<a href="gallery.html">사진첩</a>
+		</h4>
+	</body>
+</html>
