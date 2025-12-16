@@ -313,7 +313,7 @@ h2{
     position: absolute;
     top: 240px;
     left: 12%;
-    font-size: clamp(7px, 1vw, 10px);
+    font-size: 10px;
     font-weight: normal;
 }
 
@@ -321,14 +321,14 @@ h2{
     position: absolute;
     top: 240px;
     left: 26%;
-    font-size: clamp(7px, 1vw, 10px);
+    font-size: 10px;
     font-weight: normal;
 }
 .g3 {
     position: absolute;
     top: 240px;
     left: 40%;
-    font-size: clamp(7px, 1vw, 10px);
+    font-size: 10px;
     font-weight: normal;
 }
 
@@ -336,14 +336,14 @@ h2{
     position: absolute;
     top: 240px;
     left: 54%;
-    font-size: clamp(7px, 1vw, 10px);
+    font-size: 10px;
     font-weight: normal;
 }
 .g5 {
     position: absolute;
     top: 240px;
     left: 68%;
-    font-size: clamp(7px, 1vw, 10px);
+    font-size: 10px;
     font-weight: normal;
 }
 
@@ -351,14 +351,14 @@ h2{
     position: absolute;
     top: 240px;
     left: 82%;
-    font-size: clamp(7px, 1vw, 10px);
+    font-size: 10px;
     font-weight: normal;
 }
 .d2 {
     position: absolute;
     top: 390px;
     left: 12%;
-    font-size: clamp(7px, 1vw, 10px);
+    font-size: 10px;
     font-weight: normal;
 }
 
@@ -366,35 +366,35 @@ h2{
     position: absolute;
     top: 390px;
     left: 26%;
-    font-size: clamp(7px, 1vw, 10px);
+    font-size: 10px;
     font-weight: normal;
 }
 .d4 {
     position: absolute;
     top: 390px;
     left: 40%;
-    font-size: clamp(7px, 1vw, 10px);
+    font-size: 10px;
     font-weight: normal;
 }
 .d5 {
     position: absolute;
     top: 390px;
     left: 54%;
-    font-size: clamp(7px, 1vw, 10px);
+    font-size: 10px;
     font-weight: normal;
 }
 .n1 {
     position: absolute;
     top: 390px;
     left: 68%;
-    font-size: clamp(7px, 1vw, 10px);
+    font-size: 10px;
     font-weight: normal;
 }
 .n2 {
     position: absolute;
     top: 390px;
     left: 82%;
-    font-size: clamp(7px, 1vw, 10px);
+    font-size: 10px;
     font-weight: normal;
 }
 
@@ -402,21 +402,21 @@ h2{
     position: absolute;
     top: 540px;
     left: 12%;
-    font-size: clamp(7px, 1vw, 10px);
+    font-size: 10px;
     font-weight: normal;
 }
 .n4 {
     position: absolute;
     top: 540px;
     left: 26%;
-    font-size: clamp(7px, 1vw, 10px);
+    font-size: 10px;
     font-weight: normal;
 }
 .n5 {
     position: absolute;
     top: 540px;
     left: 40%;
-    font-size: clamp(7px, 1vw, 10px);
+    font-size: 10px;
     font-weight: normal;
 }
 
@@ -424,14 +424,14 @@ h2{
     position: absolute;
     top: 540px;
     left: 54%;
-    font-size: clamp(7px, 1vw, 10px);
+    font-size: 10px;
     font-weight: normal;
 }
 .b2 {
     position: absolute;
     top: 540px;
     left: 68%;
-    font-size: clamp(7px, 1vw, 10px);
+    font-size: 10px;
     font-weight: normal;
 }
 
@@ -439,35 +439,35 @@ h2{
     position: absolute;
     top: 540px;
     left: 82%;
-    font-size: clamp(7px, 1vw, 10px);
+    font-size: 10px;
     font-weight: normal;
 }
 .b4 {
     position: absolute;
     top: 690px;
     left: 12%;
-    font-size: clamp(7px, 1vw, 10px);
+    font-size: 10px;
     font-weight: normal;
 }
 .b5 {
     position: absolute;
     top: 690px;
     left: 26%;
-    font-size: clamp(7px, 1vw, 10px);
+    font-size: 10px;
     font-weight: normal;
 }
 .i1 {
     position: absolute;
     top: 690px;
     left: 40%;
-    font-size: clamp(7px, 1vw, 10px);
+    font-size: 10px;
     font-weight: normal;
 }
 .i2 {
     position: absolute;
     top: 690px;
     left: 54%;
-    font-size: clamp(7px, 1vw, 10px);
+    font-size: 10px;
     font-weight: normal;
 }
 
@@ -475,21 +475,21 @@ h2{
     position: absolute;
     top: 690px;
     left: 68%;
-    font-size: clamp(7px, 1vw, 10px);
+    font-size: 10px;
     font-weight: normal;
 }
 .i4 {
     position: absolute;
     top: 690px;
     left:82%;
-    font-size: clamp(7px, 1vw, 10px);
+    font-size: 10px;
     font-weight: normal;
 }
 .i5 {
     position: absolute;
     top: 840px;
     left: 12%;
-    font-size: clamp(7px, 1vw, 10px);
+    font-size: 10px;
     font-weight: normal;
 }
 
@@ -498,7 +498,7 @@ h2{
 
 
 
-@media (max-width: 800px) {
+@media (max-width: 480px) {
      .a {
         position: absolute;
         top: 150px;
