@@ -92,7 +92,7 @@ h2{
 .f {
     position: absolute;
     right: 150px;
-    left: 12%;
+    right: 12%;
     width: 80px;
     height: 80px;
     background-image: url("image/d1.jpg");
@@ -498,7 +498,7 @@ h2{
 
 
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
      .a {
         position: absolute;
         top: 150px;
@@ -518,7 +518,7 @@ h2{
     .c {
         position: absolute;
         top: 150px;
-        right: 32%;
+        left: 68%;
         width: 65px;
         height: 65px;
     }
@@ -534,7 +534,7 @@ h2{
     .e {
         position: absolute;
         top: 300px;
-        left: 12%;
+        right: 88%;
         width: 65px;
         height: 65px;
     }
@@ -542,7 +542,7 @@ h2{
     .f {
         position: absolute;
         top: 300px;
-        left: 32%;
+        right: 68%;
         width: 65px;
         height: 65px;
     }
@@ -550,7 +550,7 @@ h2{
     .g {
         position: absolute;
         top: 300px;
-        right: 32%;
+        left: 68%;
         width: 65px;
         height: 65px;
     }
@@ -558,7 +558,7 @@ h2{
     .h {
         position: absolute;
         top: 300px;
-        right: 12%;
+        left: 88%;
         width: 65px;
         height: 65px;
     }
@@ -574,7 +574,7 @@ h2{
     .j {
         position: absolute;
         top: 450px;
-        left: 32%;
+        right: 68%;
         width: 65px;
         height: 65px;
     }
@@ -614,7 +614,7 @@ h2{
     .o {
         position: absolute;
         top: 600px;
-        right: 32%;
+        left: 68%;
         width: 65px;
         height: 65px;
     }
@@ -630,7 +630,7 @@ h2{
     .q {
         position: absolute;
         top: 750px;
-        left: 12%;
+        right: 88%;
         width: 65px;
         height: 65px;
     }
@@ -638,7 +638,7 @@ h2{
     .r {
         position: absolute;
         top: 750px;
-        left: 32%;
+        right: 68%;
         width: 65px;
         height: 65px;
     }
@@ -646,7 +646,7 @@ h2{
     .s {
         position: absolute;
         top: 750px;
-        right: 32%;
+        left: 68%;
         width: 65px;
         height: 65px;
     }
@@ -654,7 +654,7 @@ h2{
     .t {
         position: absolute;
         top: 750px;
-        right: 12%;
+        left: 88%;
         width: 65px;
         height: 65px;
     }
@@ -670,7 +670,7 @@ h2{
     .v {
         position: absolute;
         top: 900px;
-        left: 32%;
+        right: 68%;
         width: 65px;
         height: 65px;
     }
@@ -712,7 +712,7 @@ h2{
         .g3 {
             position: absolute;
             top: 225px;
-            right: 32%;
+            left: 68%;
             }
         
         .g4 {
@@ -724,25 +724,25 @@ h2{
         .g5 {
             position: absolute;
             top: 375px;
-            left: 12%;
+            right: 88%;
             }
         
         .d1 {
             position: absolute;
             top: 375px;
-            left: 32%;
+            right: 68%;
             }
     
         .d2 {
             position: absolute;
             top: 375px;
-            right: 32%;
+            left: 68%;
             }
         
         .d3 {
             position: absolute;
             top: 375px;
-            right: 12%;
+            left: 88%;
             }
     
         .d4 {
@@ -754,7 +754,7 @@ h2{
         .d5 {
             position: absolute;
             top: 525px;
-            left: 32%;
+            right: 68%;
             }
     
         .n1 {
@@ -784,7 +784,7 @@ h2{
         .n5 {
             position: absolute;
             top: 675px;
-            right: 32%;
+            left: 68%;
             }
         
         .b1 {
@@ -796,25 +796,25 @@ h2{
         .b2 {
             position: absolute;
             top: 825px;
-            left: 12%;
+            right: 88%;
             }
         
         .b3 {
             position: absolute;
             top: 825px;
-            left: 32%;
+            right: 68%;
             }
     
         .b4 {
             position: absolute;
             top: 825px;
-            right: 32%;
+            left: 68%;
             }
     
         .b5 {
             position: absolute;
             top: 825px;
-            right: 12%;
+            left: 88%;
             }
     
         .i1 {
@@ -826,7 +826,7 @@ h2{
         .i2 {
             position: absolute;
             top: 975px;
-            left: 32%;
+            right: 68%
             }
         
         .i3 {
