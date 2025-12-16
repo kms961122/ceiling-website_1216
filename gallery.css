@@ -697,8 +697,11 @@ h2{
         width: 70px;
         height: 70px;
     }
+}
 
 
+
+@media (max-width: 50px) {
 .g1 {
     position: absolute;
     top: 240px;
