@@ -702,149 +702,174 @@ h2{
             position: absolute;
             top: 240px;
             left: 12%;
+            font-size: 7px;
             }
         
         .g2 {
             position: absolute;
             top: 240px;
             left: 32%;
+            font-size: 7px;
         }
         .g3 {
             position: absolute;
             top: 240px;
             left: 52%;
+            font-size: 7px;
             }
         
         .g4 {
             position: absolute;
             top: 240px;
             left: 72%;
+            font-size: 7px;
             }
     
         .g5 {
             position: absolute;
             top: 390px;
             left: 12%;
+            font-size: 7px;
             }
         
         .d1 {
             position: absolute;
             top: 390px;
             left: 32%;
+            font-size: 7px;
             }
     
         .d2 {
             position: absolute;
             top: 390px;
             left: 52%;
+            font-size: 7px;
             }
         
         .d3 {
             position: absolute;
             top: 390px;
             left: 72%;
+            font-size: 7px;
             }
     
         .d4 {
             position: absolute;
             top: 540px;
             left: 12%;
+            font-size: 7px;
             }
     
         .d5 {
             position: absolute;
             top: 540px;
             left: 32%;
+            font-size: 7px;
             }
     
         .n1 {
             position: absolute;
             top: 540px;
             left: 52%;
+            font-size: 7px;
             }
     
         .n2 {
             position: absolute;
             top: 540px;
             left: 72%;
+            font-size: 7px;
             }
         
         .n3 {
             position: absolute;
             top: 690px;
             left: 12%;
+            font-size: 7px;
             }
     
         .n4 {
             position: absolute;
             top: 690px;
             left: 32%;
+            font-size: 7px;
             }
     
         .n5 {
             position: absolute;
             top: 690px;
             left: 52%;
+            font-size: 7px;
             }
         
         .b1 {
             position: absolute;
             top: 690px;
             left: 72%;
+            font-size: 7px;
             }
     
         .b2 {
             position: absolute;
             top: 840px;
             left: 12%;
+            font-size: 7px;
             }
         
         .b3 {
             position: absolute;
             top: 840px;
             left: 32%;
+            font-size: 7px;
             }
     
         .b4 {
             position: absolute;
             top: 840px;
             left: 52%;
+            font-size: 7px;
             }
     
         .b5 {
             position: absolute;
             top: 840px;
             left: 72%;
+            font-size: 7px;
             }
     
         .i1 {
             position: absolute;
             top: 990px;
             left: 12%;
+            font-size: 7px;
            }
     
         .i2 {
             position: absolute;
             top: 990px;
             left: 32%;
+            font-size: 7px;
            }
         
         .i3 {
             position: absolute;
             top: 990px;
             left: 52%;
+            font-size: 7px;
            }
     
         .i4 {
             position: absolute;
             top: 990px;
             left: 72%;
+            font-size: 7px;
             }
     
         .i5 {
             position: absolute;
             top: 1140px;
             left: 12%;
+            font-size: 7px;
         }
     }
     
