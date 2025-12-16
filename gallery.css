@@ -697,6 +697,190 @@ h2{
         width: 70px;
         height: 70px;
     }
+
+    .g1 {
+    position: absolute;
+    top: 240px;
+    left: 12%;
+    font-size: 10px;
+    font-weight: normal;
+    }
+    
+    .g2 {
+        position: absolute;
+        top: 240px;
+        left: 32%;
+        font-size: 10px;
+        font-weight: normal;
+    }
+    .g3 {
+        position: absolute;
+        top: 240px;
+        left: 52%;
+        font-size: 10px;
+        font-weight: normal;
+    }
+    
+    .g4 {
+        position: absolute;
+        top: 240px;
+        left: 72%;
+        font-size: 10px;
+        font-weight: normal;
+    }
+    .g5 {
+        position: absolute;
+        top: 390px;
+        left: 12%;
+        font-size: 10px;
+        font-weight: normal;
+    }
+    
+    .d1 {
+        position: absolute;
+        top: 390px;
+        left: 32%;
+        font-size: 10px;
+        font-weight: normal;
+    }
+    .d2 {
+        position: absolute;
+        top: 390px;
+        left: 52%;
+        font-size: 10px;
+        font-weight: normal;
+    }
+    
+    .d3 {
+        position: absolute;
+        top: 390px;
+        left: 72%;
+        font-size: 10px;
+        font-weight: normal;
+    }
+    .d4 {
+        position: absolute;
+        top: 540px;
+        left: 12%;
+        font-size: 10px;
+        font-weight: normal;
+    }
+    .d5 {
+        position: absolute;
+        top: 540px;
+        left: 32%;
+        font-size: 10px;
+        font-weight: normal;
+    }
+    .n1 {
+        position: absolute;
+        top: 540px;
+        left: 52%;
+        font-size: 10px;
+        font-weight: normal;
+    }
+    .n2 {
+        position: absolute;
+        top: 540px;
+        left: 72%;
+        font-size: 10px;
+        font-weight: normal;
+    }
+    
+    .n3 {
+        position: absolute;
+        top: 690px;
+        left: 12%;
+        font-size: 10px;
+        font-weight: normal;
+    }
+    .n4 {
+        position: absolute;
+        top: 690px;
+        left: 32%;
+        font-size: 10px;
+        font-weight: normal;
+    }
+    .n5 {
+        position: absolute;
+        top: 690px;
+        left: 52%;
+        font-size: 10px;
+        font-weight: normal;
+    }
+    
+    .b1 {
+        position: absolute;
+        top: 690px;
+        left: 72%;
+        font-size: 10px;
+        font-weight: normal;
+    }
+    .b2 {
+        position: absolute;
+        top: 840px;
+        left: 12%;
+        font-size: 10px;
+        font-weight: normal;
+    }
+    
+    .b3 {
+        position: absolute;
+        top: 840px;
+        left: 32%;
+        font-size: 10px;
+        font-weight: normal;
+    }
+    .b4 {
+        position: absolute;
+        top: 840px;
+        left: 52%;
+        font-size: 10px;
+        font-weight: normal;
+    }
+    .b5 {
+        position: absolute;
+        top: 840px;
+        left: 72%;
+        font-size: 10px;
+        font-weight: normal;
+    }
+    .i1 {
+        position: absolute;
+        top: 990px;
+        left: 12%;
+        font-size: 10px;
+        font-weight: normal;
+    }
+    .i2 {
+        position: absolute;
+        top: 990px;
+        left: 32%;
+        font-size: 10px;
+        font-weight: normal;
+    }
+    
+    .i3 {
+        position: absolute;
+        top: 990px;
+        left: 52%;
+        font-size: 10px;
+        font-weight: normal;
+    }
+    .i4 {
+        position: absolute;
+        top: 990px;
+        left: 72%;
+        font-size: 10px;
+        font-weight: normal;
+    }
+    .i5 {
+        position: absolute;
+        top: 1140px;
+        left: 12%;
+        font-size: 10px;
+        font-weight: normal;
+    }
 }
 
 
@@ -882,7 +1066,7 @@ h2{
     position: absolute;
     top: 1140px;
     left: 12%;
-    font-size: 2%;
+    font-size: 6px;
     font-weight: normal;
 }
 
