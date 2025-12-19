@@ -32,61 +32,21 @@ li {
 }
 
 h1{
-    font-size: 43px;
+    font-size: 40px;
     color: white;
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    font-weight: bold; 
 }
 
 h2 a {
     position: fixed;
     bottom: 3%;
     left: 50%;
-    transform: translateX(-50%);
-    z-index: 9999;
-    text-decoration: none;
-    color: pink;
     font-size: 14px;
-    font-weight: 300; 
-}
-
-.천{
-    position: fixed;
-    top: 5%;
-    left: 5%;
-}
-
-.장{
-    position: fixed;
-    top: 5%;
-    right: 5%;
-}
-
-.조{
-    position: fixed;
-    top: 50%;
-    left: 5%;
-    transform: translateY(-50%);
-}
-
-.각{
-    position: fixed;
-    top: 50%;
-    right: 5%;
-    transform: translateY(-50%);
-}
-
-.조2{
-    position: fixed;
-    bottom: 5%;
-    left: 5%;
-}
-
-.각2{
-    position: fixed;
-    bottom: 5%;
-    right: 5%;
-}
-   
-
+    font-weight: normal; 
+    color: pink;
 
 
 .title {
