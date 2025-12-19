@@ -14,21 +14,19 @@ ul {
 }
 
 li {
-    flex: 1;
-    height: calc(100% / 5);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    padding: 12px;
-}
+    position: relative; 
 
 .title {
+    position: absolute;
+    inset: 0;                
+    display: flex;
+    align-items: flex-end;   
+    justify-content: flex-start;
+    padding: 12px;
+
     font-size: 10px;
     color: white;
     text-decoration: none;
-    font-weight: normal;
 }
 
 h1{
