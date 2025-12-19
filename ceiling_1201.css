@@ -16,7 +16,7 @@ ul {
 li
     {
     flex: 1;
-    height: calc (100% / 5);
+    height: calc (100% /5);
     background-size: cover;
     background-position: center;
     display: flex;
