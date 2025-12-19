@@ -21,8 +21,14 @@ li {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
-    padding: 20px;
+    padding: 12px;
+}
+
+.title {
     font-size: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
 }
 
 h1{
