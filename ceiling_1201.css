@@ -23,14 +23,13 @@ li {
     align-items: flex-end;   
     justify-content: flex-start;
     padding: 12px;
-
     font-size: 10px;
     color: white;
     text-decoration: none;
 }
 
 h1{
-    font-size: 40px;
+    font-size: 30px;
     color: white;
     position: fixed;
     top: 5%;
@@ -40,8 +39,8 @@ h1{
 
 h2 a {
     position: fixed;
-    bottom: 3%;
-    left: 50%;
+    bottom: 5%;
+    left: 5%;
     font-size: 14px;
     font-weight: normal; 
     color: pink;
