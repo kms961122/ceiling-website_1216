@@ -19,9 +19,9 @@ li {
     background-size: cover;
     background-position: center;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 20px;   
 }
 
 h1{
@@ -88,16 +88,6 @@ h2 a {
     color: white;
 }
 
-
-
-.g-icon {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    width: 4%;
-    height: 4%;
-    display: flex;
-}
 
 @media (max-width: 768px) {
 
