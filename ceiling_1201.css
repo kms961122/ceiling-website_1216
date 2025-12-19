@@ -21,7 +21,8 @@ li {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
-    padding: 20px;   
+    padding: 20px;
+    font-size: 10px;
 }
 
 h1{
